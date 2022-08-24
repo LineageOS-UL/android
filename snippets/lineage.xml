@@ -25,7 +25,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <!--<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />-->
   <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
   <!--<project path="external/pigz" name="LineageOS/android_external_pigz" />-->
   <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />-->
@@ -34,7 +34,7 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
   <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
-  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
@@ -62,7 +62,7 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
-  <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
@@ -78,7 +78,6 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
