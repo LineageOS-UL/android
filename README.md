@@ -1,4 +1,4 @@
-LineageOS
+LineageOS Ultra Legacy
 ===========
 
 Getting started
@@ -8,11 +8,11 @@ To get started with Android/LineageOS, you'll need to get familiar with [Source 
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0
+repo init -u https://github.com/LineageOS-UL/android.git -b lineage-20.0
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
@@ -34,3 +34,4 @@ All supported devices are built weekly and periodically as changes are committed
 You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
 
 Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+
