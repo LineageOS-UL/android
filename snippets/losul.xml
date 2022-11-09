@@ -34,7 +34,6 @@
   
   <project path="system/bpf" name="LineageOS-UL/android_system_bpf" remote="losul" />
   <project path="system/core" name="LineageOS-UL/android_system_core" remote="losul" />
-  <project path="system/libhidl" name="LineageOS-UL/android_system_libhidl" remote="losul" />
   <project path="system/netd" name="LineageOS-UL/android_system_netd" remote="losul" />
   <project path="system/sepolicy" name="LineageOS-UL/android_system_sepolicy" remote="losul" />
   <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool" remote="losul" />
