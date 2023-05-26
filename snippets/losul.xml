@@ -10,6 +10,7 @@
   
   <project path="external/connectivity" name="LineageOS-UL/android_external_connectivity" remote="losul" />
   <project path="external/jemalloc_new" name="LineageOS-UL/android_external_jemalloc_new" remote="losul" />
+  <project path="external/libnfc-nxp" name="LineageOS-UL/android_external_libnfc-nxp" remote="losul" />
   <project path="external/perfetto" name="LineageOS-UL/android_external_perfetto" remote="losul" />
   
   <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="losul" />
@@ -32,6 +33,7 @@
 
   <project path="packages/inputmethods/LatinIME" name="LineageOS-UL/android_packages_inputmethods_LatinIME" remote="losul" />
   <project path="packages/modules/adb" name="LineageOS-UL/android_packages_modules_adb" remote="losul" />
+  <project path="packages/apps/Nfc" name="LineageOS-UL/android_packages_apps_Nfc" remote="losul" />
   
   <project path="system/bpf" name="LineageOS-UL/android_system_bpf" remote="losul" />
   <project path="system/core" name="LineageOS-UL/android_system_core" remote="losul" />
