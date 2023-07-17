@@ -19,7 +19,6 @@
   <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" remote="losul" />
   
   <project path="hardware/broadcom/nfc" name="LineageOS-UL/android_hardware_broadcom_nfc" remote="losul" />
-  <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" remote="losul" />
   <project path="hardware/lineage/interfaces" name="LineageOS-UL/android_hardware_lineage_interfaces" remote="losul" />
   <project path="hardware/ril" name="LineageOS-UL/android_hardware_ril" remote="losul" />
   <project path="hardware/qcom/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="losul" />
