@@ -46,5 +46,6 @@
   <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool" remote="losul" />
    
   <project path="vendor/lineage" name="LineageOS-UL/android_vendor_lineage" remote="losul" />
+  <project path="vendor/qcom/opensource/power" name="LineageOS-UL/android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="losul" />
  
 </manifest>
