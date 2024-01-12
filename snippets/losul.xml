@@ -74,6 +74,7 @@
   <project path="packages/modules/NetworkStack" name="LineageOS-UL/android_packages_modules_NetworkStack" remote="losul" />
   <project path="packages/modules/Wifi" name="LineageOS-UL/android_packages_modules_Wifi" remote="losul" />
   
+  <project path="prebuilts/abi-dumps/ndk" name="LineageOS-UL/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="losul" />
   <project path="prebuilts/build-tools" name="LineageOS-UL/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="losul" />
   <project path="prebuilts/sdk" name="LineageOS-UL/android_prebuilts_sdk" groups="pdk" clone-depth="1" remote="losul" />
   
