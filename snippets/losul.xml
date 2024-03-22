@@ -78,17 +78,13 @@
   <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-21.0-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8994/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-21.0-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8994/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-21.0-caf-msm8994" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS-UL/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-21.0-caf" />
 
   <project path="packages/apps/Nfc" name="LineageOS-UL/android_packages_apps_Nfc" remote="losul" />
-  <!--<project path="packages/inputmethods/LatinIME" name="LineageOS-UL/android_packages_inputmethods_LatinIME" remote="losul" />-->
-  <project path="packages/apps/Settings" name="LineageOS-UL/android_packages_apps_Settings" groups="pdk-fs" remote="losul" />
   <project path="packages/modules/adb" name="LineageOS-UL/android_packages_modules_adb" remote="losul" />
   <project path="packages/modules/Bluetooth" name="LineageOS-UL/android_packages_modules_Bluetooth" remote="losul" />
   <project path="packages/modules/Connectivity" name="LineageOS-UL/android_packages_modules_Connectivity" remote="losul" />
   <project path="packages/modules/DeviceLock" name="LineageOS-UL/android_packages_modules_DeviceLock" groups="pdk-cw-fs,pdk-fs" remote="losul" />
   <project path="packages/modules/NetworkStack" name="LineageOS-UL/android_packages_modules_NetworkStack" remote="losul" />
-  <project path="packages/modules/Wifi" name="LineageOS-UL/android_packages_modules_Wifi" remote="losul" />
   
   <project path="prebuilts/abi-dumps/ndk" name="LineageOS-UL/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="losul" />
   <project path="prebuilts/build-tools" name="LineageOS-UL/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="losul" />
