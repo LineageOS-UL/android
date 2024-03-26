@@ -90,6 +90,7 @@
   <project path="prebuilts/build-tools" name="LineageOS-UL/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="losul" />
   <project path="prebuilts/sdk" name="LineageOS-UL/android_prebuilts_sdk" groups="pdk" clone-depth="1" remote="losul" />
   
+  <project path="system/apex" name="LineageOS-UL/android_system_apex" groups="pdk" remote="losul" />
   <project path="system/bpf" name="LineageOS-UL/android_system_bpf" remote="losul" />
   <project path="system/core" name="LineageOS-UL/android_system_core" remote="losul" />
   <project path="system/libhidl" name="LineageOS-UL/android_system_libhidl" groups="pdk" remote="losul" />
